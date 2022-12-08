@@ -1,8 +1,8 @@
 .overlay {
     /* Sit on top of the page content */
-    display: fixed;
+    position: fixed;
     /* Full width (cover the whole page) */
-    width: 100%;
+    max-width: 100%;
     /* Full height (cover the whole page) */
     height: 100%;
     /* Stay at the top */
@@ -21,6 +21,7 @@
     display: grid;
     /* Center vertically and horizontally */
     justify-content: center;
+    align-content: center;
 
 
 }
@@ -42,9 +43,9 @@
     /* Position absolute */
     position: absolute;
     /* 1rem from the top */
-    margin-top: 1rem;
+    top: 1rem;
     /* 1rem from the right */
-    margin-right: 1rem;
+    right: 1rem;
     /* 2rem width */
     width: 2rem;
     /* 2rem height */
